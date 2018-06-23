@@ -35,3 +35,19 @@ easside-ng | an auto-magic tool which allows you to communicate via an WEP-encry
 packetforge-ng | to create encrypted packets that can subsequently be used for injection
 tkiptun-ng | to inject a few frames into a WPA TKIP network with QoS
 wesside-ng | an auto-magic tool which incorporates a number of techniques to seamlessly obtain a WEP key
+
+
+## To Set Monitor Mode [mac80211] <br />
+Airmon-ng creates a new monitor mode interface as mon0 <br />
+`airmon-ng start <interface name>`
+
+To start monitor mode on a specific channel <br />
+`airmon-ng start <interface name> [channel number]`
+
+To stop and remove the monitor mode interface <br />
+`airmon-ng stop <interface name>`
+
+This command will show that the monitor mode interface is listening on the desired channel frequency <br />
+`iwlist mon0 channel`
+
+
