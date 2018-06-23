@@ -1,10 +1,10 @@
 ![](https://github.com/malsearchs/Wifi-Hacking-AircrackNG-Cheatsheet/blob/master/logo0.jpg)  excerpts from: <https://www.aircrack-ng.org/>
-# WiFi-Hacking with Aircrack NG Suite             
+# WiFi-Hacking with Aircrack-NG Suite             
 
 
 
 
-Aircrack-ng is a complete suite of tools to assess WiFi network security.
+Aircrack-NG is a complete suite of tools to assess WiFi network security.
 
 It focuses on different areas of WiFi security:
 
@@ -13,7 +13,7 @@ It focuses on different areas of WiFi security:
 + **Testing:** Checking WiFi cards and driver capabilities (capture and injection).
 + **Cracking:** WEP and WPA PSK (WPA 1 and 2).
 
-### Tools available in Aircrack NG Suite
+### Tools available in Aircrack-NG Suite
 
 AircrackNG | Usage
 ------------ | -------------
