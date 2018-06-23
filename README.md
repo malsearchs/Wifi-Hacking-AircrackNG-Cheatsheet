@@ -51,7 +51,7 @@ This command will show that the monitor mode interface is listening on the desir
 _`iwlist mon0 channel `_
 
 
-### Sniffing / Packet Capture of 802.11 Frames <br />
+## Sniffing / Packet Capture of 802.11 Frames <br />
 
 To run a basic sniffing session with Airodump-ng <br />
 _`airodump-ng <interface name> `_
