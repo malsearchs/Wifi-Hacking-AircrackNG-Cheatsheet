@@ -39,7 +39,7 @@ wesside-ng | an auto-magic tool which incorporates a number of techniques to sea
 
 ## To Set Monitor Mode [mac80211] <br />
 Airmon-ng creates a new monitor mode interface as mon0 <br />
-`_airmon-ng start <interface name>_`
+* ` airmon-ng start <interface name> ` *
 
 To start monitor mode on a specific channel <br />
 `airmon-ng start <interface name> [channel number]`
@@ -54,7 +54,7 @@ This command will show that the monitor mode interface is listening on the desir
 ### Sniffing / Packet Capture of 802.11 Frames <br />
 
 To run a basic sniffing session with Airodump-ng <br />
-`airodump-ng <interface name> `
+_`airodump-ng <interface name> `_
 
 Launch Airodump-ng with some filtering options to sniff only the traffic of interested AP <br />
 `airodump-ng -c <Channel> --bssid <BSSID> -w <Capture><interface name>`
