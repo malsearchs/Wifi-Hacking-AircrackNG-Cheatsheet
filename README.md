@@ -13,3 +13,4 @@ It focuses on different areas of WiFi security:
 + **Testing:** Checking WiFi cards and driver capabilities (capture and injection).
 + **Cracking:** WEP and WPA PSK (WPA 1 and 2).
 
+ 
