@@ -1,8 +1,8 @@
-![netdiscover](https://github.com/malsearchs/Wifi-Hacking-AircrackNG-Cheatsheet/blob/master/logo.jpg) 
+![netdiscover](https://github.com/malsearchs/Wifi-Hacking-AircrackNG-Cheatsheet/blob/master/logo.jpg)			Extracts from: <https://www.aircrack-ng.org/>
 # WiFi-Hacking with Aircrack NG Suite            
 
 
-Extracts from: <https://www.aircrack-ng.org/>
+
 
 Aircrack-ng is a complete suite of tools to assess WiFi network security.
 
