@@ -1,4 +1,4 @@
-<kbd> ![](https://github.com/malsearchs/Wifi-Hacking-AircrackNG-Cheatsheet/blob/master/logo0.jpg) </kbd> Extracts from: <https://www.aircrack-ng.org/>
+![](https://github.com/malsearchs/Wifi-Hacking-AircrackNG-Cheatsheet/blob/master/logo0.jpg)  Extracts from: <https://www.aircrack-ng.org/>
 # WiFi-Hacking with Aircrack NG Suite             
 
 
