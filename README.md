@@ -22,7 +22,7 @@ aircrack-ng | 802.11 WEP and WPA/WPA2-PSK key (password) cracking program
 airdecap-ng	| decrypt WEP/WPA/WPA2 capture files and can also be used to strip the wireless headers from an unencrypted wireless capture
 airdecloak-ng | to remove wep cloaking from a pcap file
 airdrop-n | for targeted, rule-based deauthentication of users
-aireplay-ng | to generate traffic for later use in aircrack-ng for cracking WEP and WPA-PSK key
+aireplay-ng | to generate wireless traffic for later use in aircrack-ng for cracking WEP and WPA-PSK key
 airgraph-ng | to graph the txt file (the output created by airodump with -w option)
 airmon-ng | to enable monitor mode on wireless interfaces, also be used to go back from monitor mode to managed mode
 airodump-ng | for packet capturing of raw 802.11 frames,  also ideal for collecting WEP IVs for use with aircrack-ng
@@ -61,4 +61,10 @@ _`airodump-ng -c <Channel> --bssid <BSSID> -w <Capture><interface name> `_
 
 To further minimize the disk space used by the file capture, you can also include the ‘--ivs’ option <br />
 _`airodump-ng -c <Channel> --bssid <BSSID> -w <Capture> --ivs <interface name> `_
+
+## To Generate Wireless Traffic  <br />
+Launch Aireplay-ng with options (few supported attackes stated below) on a specific interface <br /> 
+_`aireplay-ng <options><interface name> `_  <br />
+**Note:**   Aireplay-ng also used for deauthentication, fake authentication, interactive replay attacks etc. <br />
+
 
