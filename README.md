@@ -63,8 +63,24 @@ To further minimize the disk space used by the file capture, you can also includ
 _`airodump-ng -c <Channel> --bssid <BSSID> -w <Capture> --ivs <interface name> `_
 
 ## To Generate Wireless Traffic  <br />
-Launch Aireplay-ng with options (few supported attackes stated below) on a specific interface <br /> 
+Launch Aireplay-ng with '-b' option on a specific interface <br /> 
 _`aireplay-ng <options><interface name> `_  <br />
+
 **Note:**   Aireplay-ng also used for deauthentication, fake authentication, interactive replay attacks etc. <br />
+
+## wireless Packets Inection
+
+To test the packet inejction<br />
+_`aireplay-ng -9 -e <ESSID> -a <AP MAC> -i <interface><interface name>_`_`
+
+### To test if the card supports packet injection <br />
+First sett the card in monitor mode<br />
+_`airmon-ng start <interface name> [channel number]_`
+
+Then, launch the inecjtion test (use attack modes option '--test' or '-9' to test injection & quality) <br />
+_`aireplay-ng -9 <interface name>_`
+
+To run the injection test against a hidden or specific SSID <br />
+_`aireplay-ng -9 -e <ESSID> -a <AP MAC><interface name>_`
 
 
