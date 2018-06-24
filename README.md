@@ -68,7 +68,7 @@ _`aireplay-ng <options><interface name> `_  <br />
 
 **Note:**   Aireplay-ng also used for deauthentication, fake authentication, interactive replay attacks etc. <br />
 
-## wireless Packets Inection
+## Wireless Packets Inection
 
 To test the packet inejction<br />
 _`aireplay-ng -9 -e <ESSID> -a <AP MAC> -i <interface><interface name>_`_`
@@ -86,4 +86,4 @@ _`aireplay-ng -9 -e <ESSID> -a <AP MAC><interface name>_`
 To test card to card packet injection, use option '-i', and this interface acts as an AP <br />
 _`aireplay-ng -9 -i <input interface><interface name>_`
 
-
+<...>
