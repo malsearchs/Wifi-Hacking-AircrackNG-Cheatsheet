@@ -73,8 +73,8 @@ _`aireplay-ng <options><interface name> `_  <br />
 To test the packet inejction<br />
 _`aireplay-ng -9 -e <ESSID> -a <AP MAC> -i <interface><interface name>_`_`
 
-### To test if the card supports packet injection <br />
-First sett the card in monitor mode<br />
+#### To test if the card supports packet injection <br />
+First set the card in monitor mode<br />
 _`airmon-ng start <interface name> [channel number]_`
 
 Then, launch the inecjtion test (use attack modes option '--test' or '-9' to test injection & quality) <br />
@@ -82,5 +82,10 @@ _`aireplay-ng -9 <interface name>_`
 
 To run the injection test against a hidden or specific SSID <br />
 _`aireplay-ng -9 -e <ESSID> -a <AP MAC><interface name>_`
+
+#### To test card to card packet injection <br />
+
+Use option '-i', and this interface acts as an AP<br />
+_`aireplay-ng -9 -i <input interface><interface name>_`
 
 
