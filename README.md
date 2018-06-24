@@ -83,9 +83,7 @@ _`aireplay-ng -9 <interface name>_`
 To run the injection test against a hidden or specific SSID <br />
 _`aireplay-ng -9 -e <ESSID> -a <AP MAC><interface name>_`
 
-#### To test card to card packet injection <br />
-
-Use option '-i', and this interface acts as an AP<br />
+To test card to card packet injection, use option '-i', and this interface acts as an AP <br />
 _`aireplay-ng -9 -i <input interface><interface name>_`
 
 
